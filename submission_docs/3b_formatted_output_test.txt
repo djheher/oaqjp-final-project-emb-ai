@@ -1,0 +1,6 @@
+theia@theiadocker-djheher:/home/project/final_project$ python3
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import emotion_detection
+>>> emotion_detection.emotion_detector("I am so happy doing this")
+'{\n  "anger": 0.0043079085,\n  "disgust": 0.00041127237,\n  "fear": 0.0037504788,\n  "joy": 0.9918804,\n  "sadness": 0.014091322,\n  "dominant_emotion": "joy"\n}'
